@@ -1,0 +1,4 @@
+#!/bin/bash
+ex -s +"g/:~/kentinel/d" -cwq ~/.bashrc
+echo "PATH=$PATH:~/kentinel" >> ~/.bashrc
+make
