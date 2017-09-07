@@ -1,5 +1,0 @@
-#include <stdio.h>
-
-int main() {
-	printf("Kentinel Password Manager\nEnter a command to get started: \n");
-}
