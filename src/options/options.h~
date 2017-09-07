@@ -1,0 +1,6 @@
+#ifndef _OPTIONS_H
+#define _OPTIONS_H
+
+void options(optionCode);
+
+#endif
