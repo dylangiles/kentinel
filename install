@@ -1,4 +1,5 @@
 #!/bin/bash
-ex -s +"g/:~/kentinel/d" -cwq ~/.bashrc
-echo "PATH=$PATH:~/kentinel" >> ~/.bashrc
 make
+rm -r src
+rm makefile
+printf "Thank you for installing kentinel. Please change your\n PATH to ~/kentinel, or run kentinel with ~/kentinel/kentinel\n"
